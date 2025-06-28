@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promptu.Core", "src\Promptu.Core\Promptu.Core.csproj", "{e394b2c0-23ed-409b-8f55-7b542e4acc00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promptu.App", "src\Promptu.App\Promptu.App.csproj", "{a5f32cc9-2534-4668-9d30-dd858d65a4ec}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promptu.Tests", "tests\Promptu.Tests\Promptu.Tests.csproj", "{9569fbba-7056-4ce5-a35f-6d27298a2cfb}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {e394b2c0-23ed-409b-8f55-7b542e4acc00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {e394b2c0-23ed-409b-8f55-7b542e4acc00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {e394b2c0-23ed-409b-8f55-7b542e4acc00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {e394b2c0-23ed-409b-8f55-7b542e4acc00}.Release|Any CPU.Build.0 = Release|Any CPU
+        {a5f32cc9-2534-4668-9d30-dd858d65a4ec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {a5f32cc9-2534-4668-9d30-dd858d65a4ec}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {a5f32cc9-2534-4668-9d30-dd858d65a4ec}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {a5f32cc9-2534-4668-9d30-dd858d65a4ec}.Release|Any CPU.Build.0 = Release|Any CPU
+        {9569fbba-7056-4ce5-a35f-6d27298a2cfb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {9569fbba-7056-4ce5-a35f-6d27298a2cfb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {9569fbba-7056-4ce5-a35f-6d27298a2cfb}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {9569fbba-7056-4ce5-a35f-6d27298a2cfb}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal
