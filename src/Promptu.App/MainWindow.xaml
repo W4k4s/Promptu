@@ -1,0 +1,8 @@
+<Window x:Class="Promptu.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Promptu" Height="350" Width="525">
+    <Grid>
+        <TextBlock Text="Hola, Promptu!" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
